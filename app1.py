@@ -15,7 +15,7 @@ except KeyError:
     st.error(
         "❌ No se encontró el secreto `mongo.uri`. "
         "Crea el archivo `.streamlit/secrets.toml` con:\n\n"
-        "```toml\n[mongo]\nuri = \"mongodb+srv://usuario:password@cluster.xxxxx.mongodb.net/\"\n```"
+        "```toml\n[mongo]\nuri = \"mongodb+srv://illaricubillas146_db_user:nina123@clusterclase05.yi5xzun.mongodb.net/?retryWrites=true&w=majority\"\n```"
     )
     st.stop()
 
